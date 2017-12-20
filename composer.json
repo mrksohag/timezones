@@ -7,14 +7,16 @@
     "time",
     "DateTime"
   ],
+  "homepage": "http://smddtech.com",
+  "license": "MIT",
   "authors": [
     {
       "name": "Engr. Mizanur Rahman Khan",
-      "email": "engr.mrksohag@gmail.com"
+      "email": "engr.mrksohag@gmail.com",
+      "homepage": "http://mrksohag.me",
+      "role": "Developer"
     }
   ],
-  "homepage": "http://mrksohag.me",
-  "license": "MIT",
   "require": {
     "php": ">=7.0"
   },
@@ -22,7 +24,5 @@
     "psr-4": {
       "Mrksohag\\Timezones\\": "src/"
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
