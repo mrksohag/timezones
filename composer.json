@@ -1,0 +1,33 @@
+{
+  "name": "mrksohag/timezones",
+  "type": "library",
+  "description": "This is my first package. Testing Api",
+  "keywords": [
+    "date",
+    "time",
+    "DateTime"
+  ],
+  "authors": [
+    {
+      "name": "Engr. Mizanur Rahman Khan",
+      "email": "engr.mrksohag@gmail.com"
+    }
+  ],
+  "homepage": "http://mrksohag.me",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0",
+    "laravel/laravel": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrksohag\\Timezones\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
