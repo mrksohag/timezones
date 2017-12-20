@@ -24,5 +24,10 @@
     "psr-4": {
       "Mrksohag\\Timezones\\": "src/"
     }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.1-dev"
+    }
   }
 }
